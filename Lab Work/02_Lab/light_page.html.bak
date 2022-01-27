@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<title> Light </title>
+</head>
+<body>
+<p> Nate found a window and a door </p>
+<img src="window.png" width="300" height="300">
+
+<p> What should Nate do? </p>
+
+<ul>
+<li> <a href="Window.html"> Escape from Window </a> </li>
+<li> <a href="Door.html"> Open Door </a> </li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L05. Advanced HTML.</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+       .center{
+           margin-left: auto;
+           margin-right: auto;
+       }
+    </style>
+</head>
+<body>
+    <h1 style="position: relative; left: 610px;">Student List</h1>
+    <p style="text-align: center;">Table 01: This is CIS 201 fake student list</p>
+    <table class="center">
+        <tr>
+            <th style="width: 35%;">Major</th>
+            <th style="width: 35%;">S. ID</th>
+            <th>S. NAME</th>
+            <th colspan="2">S. PHONE</th>
+        </tr>
+        <tr>
+            <th rowspan="4">SE</th>
+            <td>12345</td>
+            <td>Layla</td>
+            <td>0566666</td>
+            <td>0577777</td>
+        </tr>
+        <tr>
+            <td>13578</td>
+            <td>Manal</td>
+            <td>0566888</td>
+            <td>0579999</td>
+        </tr>
+        <tr>
+            <td>23456</td>
+            <td>Saleh</td>
+            <td colspan="2">0566666</td>
+        </tr>
+        <tr>
+            <td>12345</td>
+            <td>Mohammed</td>
+            <td colspan="2">0563333</td>
+        </tr>
+        <tr>
+            <th rowspan="4">NES</th>
+            <td>12345</td>
+            <td>Layla</td>
+            <td>0566666</td>
+            <td>0577777</td>
+        </tr>
+        <tr>
+            <td>13578</td>
+            <td>Manal</td>
+            <td>0566888</td>
+            <td>0579999</td>
+        </tr>
+        <tr>
+            <td>23456</td>
+            <td>Saleh</td>
+            <td colspan="2">0566666</td>
+        </tr>
+        <tr>
+            <td>12345</td>
+            <td>Mohammed</td>
+            <td colspan="2">0563333</td>
+        </tr>
+    </table>
+
+    <h1 style="position: relative; left: 610px;">Registeration Form</h1>
+    <p style="position: relative; left: 610px;">Please fill in the registeration form if you wish to register</p>
+    <table class="center">
+        <form action="/action_page.php" method="post"></form>
+        <tr>
+           <td style="width: 61%;">First Name </td>
+           <td> <input type="text" name="firstname" value=" "> </td> 
+        </tr>
+        <tr>
+            <td>Last Name </td>
+            <td> <input type="text" name="lastname" value=" "> </td> 
+         </tr>
+         <tr>
+            <td> Email </td>
+            <td> <input type="text" name="email" value=" "> </td> 
+         </tr>
+         <tr>
+            <td> Age </td>
+            <td> <input type="text" name="Age" value=" "> </td> 
+         </tr>
+         <tr>
+            <td> Gender </td>
+           
+            <td>
+                 <input type="radio" name="Gender" value="Male"> Male
+                 <br>
+                <input type="radio" name="Gender" value="Female"> Female
+            </td> 
+         </tr>
+         <tr>
+            <td> Major </td>
+            <td>
+                 <input type="radio" name="major" value="SWE"> Software Engineering
+                 <br>
+                <input type="radio" name="major" value="NES"> Network Engineering and Security
+            </td> 
+         </tr>
+        <tr>
+            <td>What is your favourite courses?</td>
+            <td>
+                <input type="text" name="course" value="WD"> Web Design
+                <br>
+                <input type="radio" name="course" value="Back"> Back End Development
+                <br>
+                <input type="radio" name="course" value="Java"> Programming in Java
+                <br>
+                <input type="radio" name="course" value="Security"> Security
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Submir Query">
+            </td>
+        </tr>
+    </table>
+    <p><b>What does the action attribute do?</b>
+        Anwser: Action specifies the URL of the application
+        that is to be called when the Submit button is clicked. 
+    </p>
+    <p><b>Which is better GET or POST?</b>
+        Anwser: It depends on the kind of data you are dealing with, GET is used with non sensitive data
+         while POST is for sensitive data, GET has size limitations while POST doesn't. In general I would say POST is better.
+    </p>
+</body>
+</html>

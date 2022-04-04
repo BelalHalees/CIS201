@@ -1,0 +1,35 @@
+
+/* Simple Selector*/
+
+body{
+background-color: #182249;
+
+}
+
+
+/* Simple Selector*/
+
+p{
+    background-color: thistle;
+}
+
+/* Class Selector*/
+
+h2.important{
+    color: gold;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: wheat;
+    -webkit-text-stroke: 1px black;}
+
+
+/* Generic Selector*/
+
+.highlight{
+background-color: yellow;
+
+
+}
+pre{
+    background-color: whitesmoke;
+}

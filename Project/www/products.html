@@ -7,57 +7,64 @@
     <title>Products</title>
 <link rel="stylesheet" href="../src/css/styles.css">
 <script src="https://kit.fontawesome.com/81d205404b.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <body>
  
+<div>
+  <div class="navbar">
+          
+            <a class="left" href="index.html" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;"> <b>SWIFTY</b> </a>
+              <form class="srch" action="/action_page.php">
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            <a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+            <a href="About_me.html"><i class="fa-solid fa-person"></i> About Me</a>
+            <form action="/action_page.php">
+            <a><i class="fa-solid fa-coins"></i> <select name="currency" id="currency"></a> 
+              <option value="SAR"> SAR</option>
+              <option value="USD">USD</option>
+              <option value="Kuwait">Kuwait </option>
+              <option value="Bahrain">Bahrain</option>
+            </select>
+            </form>
+            <div class="dropdown">
+              <button class="dropbtn"><i class="fa-solid fa-bars"> Sections </i> 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="Contact_us.html">Contact Us</a>
+                <a href="About_me.html">About Me</a>
+                <a href="products.html">Products</a>
+              </div>
+            </div> 
+  </div>
 
-<div class="navbar">
   
-          <a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
-          <a href="About_me.html"><i class="fa-solid fa-person"></i> About Me</a>
-          <form action="/action_page.php">
-          <a><i class="fa-solid fa-coins"></i> <select name="currency" id="currency"></a> 
-            <option value="SAR"> SAR</option>
-            <option value="USD">USD</option>
-            <option value="Kuwait">Kuwait </option>
-            <option value="Bahrain">Bahrain</option>
-          </select>
-           </form>
-           <div class="dropdown">
-            <button class="dropbtn"><i class="fa-solid fa-bars"> Sections </i> 
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="index.html">Home</a>
-              <a href="Contact_us.html">Contact Us</a>
-              <a href="About_me.html">About Me</a>
-              <a href="products.html">Products</a>
-            </div>
-          </div> 
+  <div>
+      <a href="PlayStation.html" ><button class="btns">PlayStation</button></a>
+      <a href="XBOX.html"></a><button class="btns">XBOX</button></a>
+      <a href="Nintendo.html"></a><button class="btns">Nintendo</button></a>
+  </div>
+
+  <div images>
+      <img class="products1" src="../src/imgs/2021030462d789f1dc2027ef3_th_1024x0.jpg" alt="Nintendo">
+      <img class="products2" src="../src/imgs/xbox-ps5-christmas.jpg" alt="">
+  </div>
+
+  <div class="footer">
+    <p></p>
+  </div>
+  <div class="background">
+    <div class="transbox">
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+  </div>
 </div>
-
-
-<div>
-
-    <form class="srch" action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-</div>
-<a href="index.html"><img class="logo" src="../src/imgs/Gaming_store__1___1_-removebg-preview.png" alt="Home"></a>
-<div>
-    <a href="PlayStation.html"><button class="btns">PlayStation</button></a>
-    <a href="XBOX.html"></a><button class="btns">XBOX</button></a>
-    <a href="Nintendo.html"></a><button class="btns">Nintendo</button></a>
-</div>
-
-<div images>
-    <img class="products1" src="../src/imgs/2021030462d789f1dc2027ef3_th_1024x0.jpg" alt="Nintendo">
-    <img class="products2" src="../src/imgs/xbox-ps5-christmas.jpg" alt="">
-</div>
-
 </body>
 </head>
 </html>

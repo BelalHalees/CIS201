@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family:monospace;
   background-color: white;
  
 }
@@ -83,6 +82,7 @@ form.srch button:hover {
 
 
 
+
 .dropdown .dropbtn {
   font-size: 16px;  
   border: none;
@@ -93,9 +93,10 @@ form.srch button:hover {
 }
 
 .dropdown {
+  
   position: fixed;
   display: inline;
-  right: 23%;
+  
   
 }
 
@@ -159,7 +160,7 @@ width: 35%;
   position: absolute;
   bottom: -60%;
   width: 100%;
-  height: 35%;
+  height: 25%;
   box-shadow:0px 0px 4px 4px black;
   border-radius:2px;
   background-image: url(../imgs/playstation-5-footer.webp);
@@ -171,7 +172,7 @@ div.transbox {
   position: absolute;
   bottom: -60%;
   width: 100%;
-  height: 35%;
+  height: 25%;
   background-color: #ffffff;
   border: 1px solid black;
   opacity: 0.6;
@@ -180,7 +181,7 @@ div.transbox {
 
 div.transbox i {
   font-size: 100px;
-  margin-top: 6%;
+  margin-top: 3.5%;
   float: left;
   margin-left: 21.5%;
   

@@ -93,21 +93,19 @@ form.srch button:hover {
 }
 
 .dropdown {
-  position: fixed;
-
-  display: inline-block;
-  margin-left: 23.5%;
+  position: relative;
+  display: inline;
+  float: right;
 }
 
 .dropdown-content {
-  display: none;
+  display:none;
   background-color: #001439;
-  
   border-radius: 2%;
 }
 
 .dropdown-content a {
-  float:none;
+  float: none;
   color: white;
   padding: 12px 16px;
   display: block;

@@ -93,9 +93,10 @@ form.srch button:hover {
 }
 
 .dropdown {
-  position: relative;
+  position: fixed;
   display: inline;
-  float: right;
+  right: 23%;
+  
 }
 
 .dropdown-content {

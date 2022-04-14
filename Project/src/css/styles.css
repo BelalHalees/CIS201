@@ -27,7 +27,6 @@ html{
   text-decoration: none;
   font-size: 17px;
   margin-right: 1.5%;
-  position: relative;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -39,11 +38,11 @@ html{
   text-decoration: none;
   font-size: 17px;
   margin-left: 1%;
-  
+
 }
 
 form.srch button {
-  margin-left: 53.5%;
+  
   width: 5%;
   border-radius: 10%;
   padding: 6px;
@@ -52,8 +51,8 @@ form.srch button {
   font-size: 17px;
   border: 2px solid black;
   cursor: pointer;
-  position: fixed;
   margin-top: 0.5%;
+  position: absolute;
 }
 
 form.srch button:hover {
@@ -63,13 +62,13 @@ form.srch button:hover {
 
 .navbar input[type=text] {
   padding: 6px;
-  width: 52.8%;
+  width: 35%;
   float: left;
   color: black;
   font-size: 17px;
   margin-left: 1%;
-  position: absolute;
   margin-top: 0.5%;
+  position: relative;
 }
 
   .navbar input[type=text] {
@@ -83,7 +82,8 @@ form.srch button:hover {
 }
 
 .dropdown {
-  float: right;
+  position: absolute;
+  right: 31%;
   overflow: hidden;
 }
 
@@ -102,8 +102,8 @@ form.srch button:hover {
   display: none;
   position: fixed;
   background-color: #001439;
-  min-width: 10%;
-  border-radius: 5%;
+  min-width: 11%;
+  border-radius: 2%;
 }
 
 .dropdown-content a {
@@ -135,9 +135,11 @@ button.btns{
   height:2rem;
   cursor: pointer;
   margin-top: 8%;
+  position: relative;
   
 }
 img.products1{
+position: relative;
 float: right;
 margin-right: 8%;
 margin-top: 8%;
@@ -146,6 +148,7 @@ height: 15%;
 width: 35%;
 }
 img.products2{
+position: relative;
 float: left;
 margin-left: 8%;
 margin-top: 8%;

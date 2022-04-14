@@ -96,8 +96,6 @@ form.srch button:hover {
 .dropdown-content {
   display: none;
   position: fixed;
-  right: 23%;
-  margin-top: 2%;
   background-color: #001439;
   min-width: 11%;
   border-radius: 2%;

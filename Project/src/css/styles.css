@@ -176,19 +176,19 @@ div.transbox {
 }
 
 div.transbox i {
-  font-size: 80px;
+  font-size: 420%;
   margin-top: 8%;
   float: left;
-  margin-left: 22%;
+  margin-left: 21%;
   
 }
 div.transbox p {
   position:absolute;
-  right: 43%;
+  right: 42%;
   margin-top: 0.5%;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #000;
-  font-size: 80px;
+  font-size: 450%;
   opacity: 0.7;
 }
 

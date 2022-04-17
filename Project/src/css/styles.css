@@ -25,7 +25,7 @@ html{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  margin-right: 1.5%;
+ 
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -36,7 +36,7 @@ html{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  margin-left: 1%;
+ 
 
 }
 
@@ -82,7 +82,7 @@ form.srch button:hover {
 
 
 
-
+/**
 .dropdown .dropbtn {
   font-size: 16px;  
   border: none;
@@ -123,6 +123,7 @@ form.srch button:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+**/
 
 button.btns{
   background: #00345b;
@@ -180,10 +181,10 @@ div.transbox {
 }
 
 div.transbox i {
-  font-size: 100px;
+  font-size: 500%;
   margin-top: 3.5%;
   float: left;
-  margin-left: 21.5%;
+  margin-left: 21%;
   
 }
 

@@ -1,10 +1,10 @@
 body {
   margin: 0;
   background-color: white;
- 
+
 }
 html{
-  height: 160%;
+  height: 120%;
   scroll-behavior: smooth;
 }
 .navbarr {
@@ -14,7 +14,7 @@ html{
   width: 100%;
   border: 1px solid black;
   box-shadow:0px 0px 6px 6px black;
-position:fixed;
+  
   
 }
 
@@ -22,10 +22,10 @@ position:fixed;
   float: right;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 17px;
-  margin-right: 1.5%;
+  margin-right: 0.5%;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -33,11 +33,11 @@ position:fixed;
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 17px;
   margin-left: 1%;
-
+  
 }
 
 form.srch button {
@@ -50,7 +50,7 @@ form.srch button {
   font-size: 17px;
   border: 2px solid black;
   cursor: pointer;
-  margin-top: 0.5%;
+  margin-top: 0%;
   position: absolute;
 }
 
@@ -66,14 +66,14 @@ form.srch button:hover {
   color: black;
   font-size: 17px;
   margin-left: 1%;
-  margin-top: 0.5%;
+  margin-top: 0%;
   position: relative;
 }
 
-  .navbarr input[type=text] {
+.navbarr input[type=text] {
     border: 2px solid black;  
     border-radius: 1%;
-  }
+}
 
 .hoverr a:hover {
   background-color: #ddd;
@@ -113,14 +113,6 @@ height: 15%;
 width: 35%;
 }
 
-.footer {
-  position: absolute;
-  bottom: -60%;
-  width: 100%;
-  box-shadow:0px 0px 4px 4px black;
-  background-image: url(../imgs/playstation-5-footer.webp);
-
-}
 
 
 

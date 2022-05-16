@@ -1,220 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
-    <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
-<link rel="stylesheet" href="../src/css/styles.css">
-<link rel="stylesheet" href="../src/css/cart.css">
-<script src="https://kit.fontawesome.com/81d205404b.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../src/css/styles.css">
+  <link rel="stylesheet" href="../src/css/cart.css">
+  <script src="https://kit.fontawesome.com/81d205404b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="../src/css/footer.css">
 
-
-  </head>
+</head>
 
 <body>
- 
-<div>
-  <div class="navbarr" style="position:absolute;">
-          
-            <a class="left" href="index.html" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;"> <b>SWIFTY</b> </a>
-              <form class="srch" action="/action_page.php">
-                <input type="text" placeholder="Search..">
-                <button type="submit"><i class="fa fa-search"></i></button>
-              </form>
-          <div class="hoverr">
-            <a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
-            <a href="About_me.html"><i class="fa-solid fa-person"></i> About Me</a>
-            <a href="#contact_us"><i class="fa-solid fa-address-book"></i> Contact Us</a>
-            <a href="products.html"><i class="fa-solid fa-gamepad"></i> </i> Products</a>
-          </div>
-            <form action="/action_page.php">
-            <a><i class="fa-solid fa-coins"></i> <select name="currency" id="currency"></a> 
-              <option value="SAR"> SAR</option>
-              <option value="USD">USD</option>
-              <option value="Kuwait">Kuwait </option>
-              <option value="Bahrain">Bahrain</option>
-            </select>
-            </form>
-    </div>        
-    
 
-    <section class="h-100 h-custom" style="bottom: -17%; position: absolute; margin-left: 20%;">
-      <div class="container py-5 h-100">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-          <div class="col-14">
-            <div class="card card-registration card-registration-2" style="border-radius: 15px;">
-              <div class="card-body p-0">
-                <div class="row g-0">
-                  <div class="col-lg-8">
-                    <div class="p-5">
-                      <div class="d-flex justify-content-between align-items-center mb-5">
-                        <h1 class="fw-bold mb-0 text-black">Shopping Cart</h1>
-                        <h6 class="mb-0 text-muted">3 items</h6>
-                      </div>
-                      <hr class="my-4">
-    
-                      <div class="row mb-4 d-flex justify-content-between align-items-center">
-                        <div class="col-md-2 col-lg-2 col-xl-2">
-                          <img
-                            src="../src/imgs/ps5cart.webp"
-                            class="img-fluid rounded-3" alt="Switch">
+  <div>
+    <div class="navbarr">
+
+      <div class="hoverr">
+        <a class="left" href="index.html"
+            style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;">
+            <b>SWIFTY</b> </a>
+        </div>   
+      <form class="srch" action="/action_page.php">
+        <input type="text" placeholder="Search..">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <div class="hoverr">
+        <a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+        <a href="About_me.html"><i class="fa-solid fa-person"></i> About Me</a>
+        <a href="#contact_us"><i class="fa-solid fa-address-book"></i> Contact Us</a>
+        <a href="products.html"><i class="fa-solid fa-gamepad"></i> </i> Products</a>
+      </div>
+      <form action="/action_page.php">
+        <a><i class="fa-solid fa-coins"></i> <select name="currency" id="currency"></a>
+        <option value="SAR"> SAR</option>
+        <option value="USD">USD</option>
+        <option value="Kuwait">Kuwait </option>
+        <option value="Bahrain">Bahrain</option>
+        </select>
+      </form>
+    </div>
+
+    <body>
+      <main class="page">
+        <section class="shopping-cart dark">
+          <div class="container">
+            <div class="block-heading">
+              <h2>Shopping Cart</h2>
+            </div>
+            <div class="content">
+              <div class="row">
+                <div class="col-md-12 col-lg-8">
+                  <div class="items">
+                    <div class="product">
+                      <div class="row">
+                        <div class="col-md-2">
+                          <img class="img-fluid mx-auto d-block image" src="../src/imgs/ps5cart.webp">
                         </div>
-                        <div class="col-md-3 col-lg-3 col-xl-3">
-                          <h6 class="text-muted">Console</h6>
-                          <h6 class="text-black mb-0">Playstation 5</h6>
+                        <div class="col-md-8">
+                          <div class="info">
+                            <div class="row">
+                              <div class="col-md-5 product-name">
+                                  <div class="product-info">
+                                    <div><span class="value"> <b>  PlayStation 5 </b></span></div>
+                                    <div>Internal Storage: <span class="value">825GB SSD</span></div>
+                                    <div>Memory: <span class="value">16GB GDDR6</span></div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4 quantity">
+                                <label for="quantity">Quantity:</label>
+                                <input id="quantity" type="number" value="1" class="form-control quantity-input">
+                              </div>
+                              <div class="col-md-3 price">
+                                <span>$699</span>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                          <h6 class="mb-0"> $499.00</h6>
-                        </div>
-                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                          
-                        </div>
-                      </div>
-                      <hr class="my-4">
-    
-                      <div class="row mb-4 d-flex justify-content-between align-items-center">
-                        <div class="col-md-2 col-lg-2 col-xl-2">
-                          <img
-                            src="../src/imgs/switch.jpeg"
-                            class="img-fluid rounded-3" alt="Switch">
-                        </div>
-                        <div class="col-md-3 col-lg-3 col-xl-3">
-                          <h6 class="text-muted">Console</h6>
-                          <h6 class="text-black mb-0">Nintendo Switch Neon Red/Blue</h6>
-                        </div>
-                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                          <h6 class="mb-0"> $299.00</h6>
-                        </div>
-                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                          
-                        </div>
-                      </div>
-    
-                      <hr class="my-4">
-    
-                      <div class="row mb-4 d-flex justify-content-between align-items-center">
-                        <div class="col-md-2 col-lg-2 col-xl-2">
-                          <img
-                            src="../src/imgs/xboxcontroller.jpg"
-                            class="img-fluid rounded-3" alt="xboxcontroller">
-                        </div>
-                        <div class="col-md-3 col-lg-3 col-xl-3">
-                          <h6 class="text-muted">Controller</h6>
-                          <h6 class="text-black mb-0">Xbox Core Wireless Controller Forza Horizon 5 Limited Edition
-                          </h6>
-                        </div>
-                        
-                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                          <h6 class="mb-0">$79.00</h6>
-                        </div>
-                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                          <a></a>
-                        </div>
-                      </div>
-    
-                      <hr class="my-4">
-    
-                      <div class="pt-5">
-                        <h6 class="mb-0"><a href="products.html" class="text-body"><i
-                              class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
                       </div>
                     </div>
+                    <div class="product">
+                      <div class="row">
+                        <div class="col-md-2">
+                          <img class="img-fluid mx-auto d-block image" src="../src/imgs/xboxcontroller.jpg">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="info">
+                            <div class="row">
+                              <div class="col-md-5 product-name">
+                                <div class="product-name">
+                                  <div class="product-info">
+                                    <div> <span class="value"> <b> Xbox Wireless Controller Forza Horizon 5 Limited Edition </b> </span></div>
+                                    <div> Battery: <span class="value">AA Battery</span></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 quantity">
+                                <label for="quantity">Quantity:</label>
+                                <input id="quantity" type="number" value="1" class="form-control quantity-input">
+                              </div>
+                              <div class="col-md-3 price">
+                                <span>$69</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <div class="row">
+                        <div class="col-md-2">
+                          <img class="img-fluid mx-auto d-block image" src="../src/imgs/hades.webp">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="info">
+                            <div class="row">
+                              <div class="col-md-5 product-name">
+                                <div class="product-name">
+                                  
+                                  <div class="product-info">
+                                    <div><span class="value"><b> Hades Nintendo Switch</b></span></div>
+                                    <div>Number of players: <span class="value">Single Player (1)</span></div>
+                                    <div>Size: <span class="value">5.8 GB</span></div>
+                                    <div>Publisher: <span class="value">Supergiant Games</span></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 quantity">
+                                <label for="quantity">Quantity:</label>
+                                <input id="quantity" type="number" value="1" class="form-control quantity-input">
+                              </div>
+                              <div class="col-md-3 price">
+                                <span>$55</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
-                  <div class="col-lg-4 bg-grey">
-                    <div class="p-5">
-                      <h3 class="fw-bold mb-5 mt-2 pt-1">Summary</h3>
-                      <hr class="my-4">
-    
-                      <div class="d-flex justify-content-between mb-4">
-                        <h5 class="text-uppercase">items 3</h5>
-                        <h5> $877.00</h5>
-                      </div>
-    
-                      <h5 class="text-uppercase mb-3">Shipping</h5>
-    
-                      <div class="mb-4 pb-2">
-                        <select class="select">
-                          <option value="1">Standard-Delivery- $5.00</option>
-                          <option value="2">Fast-Delivery- 10.00$</option>
-                          <option value="3">Cash-On-Delivery- 20.00$</option>
-                          <option value="4">Pick-Up- 5.00$</option>
-                        </select>
-                      </div>
-    
-                      <h5 class="text-uppercase mb-3">Give code</h5>
-    
-                      <div class="mb-5">
-                        <div class="form-outline">
-                          <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
-                          <label class="form-label" for="form3Examplea2">Enter your code</label>
-                        </div>
-                      </div>
-    
-                      <hr class="my-4">
-    
-                      <div class="d-flex justify-content-between mb-5">
-                        <h5 class="text-uppercase">Total price</h5>
-                        <h5> $882.00</h5>
-                      </div>
-    
-                      <button type="button" class="btn btn-dark btn-block btn-lg"
-                        data-mdb-ripple-color="dark"> Checkout</button>
-    
-                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                  <div class="summary">
+                    <h3>Summary</h3>
+                    <div class="summary-item"><span class="text">Subtotal</span><span class="price">$823</span></div>
+                    <div class="summary-item"><span class="text">Discount</span><span class="price">$0</span></div>
+                    <div class="summary-item"><span class="text">Shipping</span><span class="price">$12</span></div>
+                    <div class="summary-item"><span class="text">Total</span><span class="price">$835</span></div>
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Checkout</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+      </main>
+
+      <!--BootStrap Footer-->
+
+     
+        <!-- Footer -->
+        <div class="footer" id="contact_us">
+          <footer class=" text-center">
+
+              <!-- Grid container -->
+              <div class="container p-4">
+
+                  <!-- Section: Social media -->
+                  <section class="mb-4">
+                      <!-- Facebook -->
+                      <a class="btn btn-primary btn-floating m-3" style="background-color: #3b5998" href="tel:123-456-7890"
+                          role="button"><i class="fa fa-phone fa-3x" aria-hidden="true"></i></a>
+
+                      <!-- Twitter -->
+                      <a class="btn btn-primary btn-floating m-3" style="background-color: #55acee" href="https://twitter.com/alyamamah_uni?lang=en"
+                          role="button"><i class="fab fa-twitter fa-3x"></i></a>
+
+                      <!-- Google -->
+                      <a class="btn btn-primary btn-floating m-3" style="background-color: #dd4b39" href="mailto: swifty@gmail.com"
+                          role="button"><i class="fab fa-google fa-3x"></i></a>
+
+                      <!-- Instagram -->
+                      <a class="btn btn-primary btn-floating m-3" style="background-color: #ac2bac" href="https://www.instagram.com/alyamamah_university/?hl=en"
+                          role="button"><i class="fab fa-instagram fa-3x"></i></a>
+
+                      <!-- Linkedin -->
+                      <a class="btn btn-primary btn-floating m-3" style="background-color: #0082ca" href="https://www.linkedin.com/school/al-yamamah-university/"
+                          role="button"><i class="fab fa-linkedin-in fa-3x"></i></a>
+                      <!-- Github -->
+                      <a class="btn btn-primary btn-floating m-3" style="background-color: #333333" href="https://github.com/BelalHalees"
+                          role="button"><i class="fab fa-github fa-3x"></i></a>
+                  </section>
+                  <!-- Section: Social media -->
+
+              </div>
+              <!-- Grid container -->
+
+          </footer>
+          <!-- Footer -->
       </div>
-    </section>
-           
- 
 
-  <!--BootStrap-->
-  
-<!-- Footer -->
-<div class="footer">
-<footer class=" text-center">
-
-  <!-- Grid container -->
-  <div class="container p-4">
-
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-primary btn-floating m-3" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f fa-3x"></i></a>
-
-      <!-- Twitter -->
-      <a class="btn btn-primary btn-floating m-3" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter fa-3x"></i></a>
-
-      <!-- Google -->
-      <a class="btn btn-primary btn-floating m-3" style="background-color: #dd4b39" href="#!" role="button"><i class="fab fa-google fa-3x"></i></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-primary btn-floating m-3" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram fa-3x"></i></a>
-
-      <!-- Linkedin -->
-      <a class="btn btn-primary btn-floating m-3" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in fa-3x"></i></a>
-      <!-- Github -->
-      <a class="btn btn-primary btn-floating m-3" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github fa-3x"></i></a>
-    </section>
-    <!-- Section: Social media -->
 
   </div>
-  <!-- Grid container -->
-
-</footer>
-<!-- Footer -->
-</div>
-
-
-</div>
 </body>
 </head>
+
 </html>

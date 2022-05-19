@@ -11,8 +11,20 @@
       border: 0;
 
   }
-  html{
-   
-    height: 100%;  
-  }
- 
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  bottom: 900px;
+  left: 38%;
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: #001439;
+  -webkit-text-stroke: 1px black;
+ }

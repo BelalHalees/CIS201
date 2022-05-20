@@ -29,6 +29,7 @@
   .heading__title {
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #001439;
   }
   
   .heading__credits {
@@ -91,10 +92,6 @@
     width: 100%;
   }
   
-  .card__exit {
-    grid-row: 1/2;
-    justify-self: end;
-  }
   
   .card__icon {
     grid-row: 2/3;

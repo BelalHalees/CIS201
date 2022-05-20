@@ -39,6 +39,10 @@ html{
   margin-left: 1%;
   
 }
+form i.fa-solid{
+  color: white;
+
+}
 
 form.srch button {
   
@@ -82,7 +86,7 @@ form.srch button:hover {
 
 
 .btns button{
-  margin-left: 19%;
+  margin-left: 17.3%;
   margin-top: 5%;
   background: #00345b;
   border: black;
